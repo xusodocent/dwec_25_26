@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../DWEC_BOM/">
+        <link rel="prev" href="../DWEC_json_serve/">
       
+      
+        <link rel="next" href="../DWEC_UD8_api_rest_vue/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Desplegament - DESENVOLUPAMENT WEB EN ENTORN CLIENT - 2DAWsp - Xuso Ortí</title>
+        <title>Pràctica semi-guiada - DESENVOLUPAMENT WEB EN ENTORN CLIENT - 2DAWsp - Xuso Ortí</title>
       
     
     
@@ -70,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tutorial-per-al-build-i-deploy-duna-aplicacio-en-vue-3-amb-vue-router" class="md-skip">
+        <a href="#activitat-practica-creacio-duna-api-rest-amb-json-server" class="md-skip">
           Salta el contingut
         </a>
       
@@ -103,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Desplegament
+              Pràctica semi-guiada
             
           </span>
         </div>
@@ -430,10 +432,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../DWEC_json_serve/" class="md-tabs__link">
           
   
@@ -530,12 +534,10 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
+      <li class="md-tabs__item">
         <a href="../annexos_vite/" class="md-tabs__link">
           
   
@@ -2629,24 +2631,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
         
           
-          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
             
   
   
@@ -2659,7 +2666,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_10">
             <span class="md-nav__icon md-icon"></span>
             Fake API
@@ -2693,6 +2700,8 @@
                 
   
   
+    
+  
   
   
     
@@ -2703,11 +2712,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" checked>
         
           
           <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
@@ -2723,7 +2732,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_10_2">
             <span class="md-nav__icon md-icon"></span>
             Pràctica
@@ -2734,10 +2743,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../DWEC_json_serve_pr/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Pràctica semi-guiada
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2748,6 +2777,126 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#activitat-practica-creacio-duna-api-rest-amb-json-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activitat Pràctica: Creació d'una API REST amb JSON Server
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Activitat Pràctica: Creació d&#39;una API REST amb JSON Server">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectius-de-lactivitat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objectius de l'activitat:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisits-previs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisits previs:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pas-1-installar-json-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas 1: Instal·lar JSON Server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pas-2-crear-el-fitxer-de-dades-json" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas 2: Crear el fitxer de dades JSON
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pas-3-iniciar-json-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas 3: Iniciar JSON Server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pas-4-fer-peticions-a-la-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas 4: Fer peticions a la API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pas 4: Fer peticions a la API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#operacions-crud" class="md-nav__link">
+    <span class="md-ellipsis">
+      Operacions CRUD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pas-5-utilitzar-postman-per-fer-les-peticions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas 5: Utilitzar Postman per fer les peticions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pas-6-crear-un-frontend-senzill-per-interactuar-amb-lapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas 6: Crear un frontend senzill per interactuar amb l'API
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3175,29 +3324,24 @@
       
   
   
-    
   
   
-  
     
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
         
           
-          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
             
   
   
@@ -3210,7 +3354,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_14">
             <span class="md-nav__icon md-icon"></span>
             Annexos
@@ -3316,30 +3460,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Desplegament
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../vue_build_deploy/" class="md-nav__link">
         
   
   
@@ -3350,78 +3474,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Taula de continguts
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tutorial-per-al-build-i-deploy-duna-aplicacio-en-vue-3-amb-vue-router" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tutorial per al Build i Deploy d'una aplicació en Vue 3 amb Vue Router
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pas-1-crear-el-build-per-a-produccio" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pas 1: Crear el build per a producció
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pas-2-desplegar-laplicacio" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pas 2: Desplegar l'aplicació
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#opcio-1-desplegar-en-github-pages" class="md-nav__link">
-    <span class="md-ellipsis">
-      Opció 1: Desplegar en GitHub Pages
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#opcio-2-desplegar-en-netlify" class="md-nav__link">
-    <span class="md-ellipsis">
-      Opció 2: Desplegar en Netlify
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#opcio-3-desplegar-en-vercel" class="md-nav__link">
-    <span class="md-ellipsis">
-      Opció 3: Desplegar en Vercel
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -3459,56 +3511,104 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tutorial-per-al-build-i-deploy-duna-aplicacio-en-vue-3-amb-vue-router" class="md-nav__link">
+  <a href="#activitat-practica-creacio-duna-api-rest-amb-json-server" class="md-nav__link">
     <span class="md-ellipsis">
-      Tutorial per al Build i Deploy d'una aplicació en Vue 3 amb Vue Router
+      Activitat Pràctica: Creació d'una API REST amb JSON Server
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Activitat Pràctica: Creació d&#39;una API REST amb JSON Server">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectius-de-lactivitat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objectius de l'activitat:
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#pas-1-crear-el-build-per-a-produccio" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#requisits-previs" class="md-nav__link">
     <span class="md-ellipsis">
-      Pas 1: Crear el build per a producció
+      Requisits previs:
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#pas-2-desplegar-laplicacio" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#pas-1-installar-json-server" class="md-nav__link">
     <span class="md-ellipsis">
-      Pas 2: Desplegar l'aplicació
+      Pas 1: Instal·lar JSON Server
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#opcio-1-desplegar-en-github-pages" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#pas-2-crear-el-fitxer-de-dades-json" class="md-nav__link">
     <span class="md-ellipsis">
-      Opció 1: Desplegar en GitHub Pages
+      Pas 2: Crear el fitxer de dades JSON
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#opcio-2-desplegar-en-netlify" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#pas-3-iniciar-json-server" class="md-nav__link">
     <span class="md-ellipsis">
-      Opció 2: Desplegar en Netlify
+      Pas 3: Iniciar JSON Server
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#opcio-3-desplegar-en-vercel" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#pas-4-fer-peticions-a-la-api" class="md-nav__link">
     <span class="md-ellipsis">
-      Opció 3: Desplegar en Vercel
+      Pas 4: Fer peticions a la API
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Pas 4: Fer peticions a la API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#operacions-crud" class="md-nav__link">
+    <span class="md-ellipsis">
+      Operacions CRUD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pas-5-utilitzar-postman-per-fer-les-peticions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas 5: Utilitzar Postman per fer les peticions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pas-6-crear-un-frontend-senzill-per-interactuar-amb-lapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas 6: Crear un frontend senzill per interactuar amb l'API
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -3528,129 +3628,279 @@
 
 
 
-  <h1>Desplegament</h1>
+  <h1>Pràctica semi-guiada</h1>
 
-<h3 id="tutorial-per-al-build-i-deploy-duna-aplicacio-en-vue-3-amb-vue-router">Tutorial per al <strong>Build</strong> i <strong>Deploy</strong> d'una aplicació en <strong>Vue 3</strong> amb <strong>Vue Router</strong></h3>
-<p>Aquest tutorial es centra en <strong>crear el build</strong> de producció d'una aplicació <strong>Vue 3</strong> que utilitza <strong>Vue Router</strong> i després desplegar l'aplicació en un servidor de producció com <strong>GitHub Pages</strong>, <strong>Netlify</strong> o <strong>Vercel</strong>.</p>
+<h2 id="activitat-practica-creacio-duna-api-rest-amb-json-server">Activitat Pràctica: <strong>Creació d'una API REST amb JSON Server</strong></h2>
+<p>L'objectiu d'aquesta activitat és familiaritzar-se amb <strong>JSON Server</strong>, una eina que permet crear una API REST fake de manera ràpida a partir d'un arxiu <strong>JSON</strong>. Això serà útil per a projectes d'aprenentatge, mockups, i també per simular un backend mentre es treballa en el desenvolupament frontend.</p>
+<div class="admonition note">
+<p class="admonition-title">Context</p>
+<p>Vas a crear una <strong>API REST</strong> bàsica que permetrà als usuaris interactuar amb una base de dades de llibres. La base de dades es gestionarà utilitzant <strong>JSON Server</strong> i s'exposarà a través de mètodes HTTP (GET, POST, PUT, DELETE).</p>
+</div>
 <hr />
-<h3 id="pas-1-crear-el-build-per-a-produccio">Pas 1: Crear el build per a producció</h3>
+<h3 id="objectius-de-lactivitat">Objectius de l'activitat:</h3>
 <ol>
-<li>
-<p><strong>Configura el router</strong> (si ja tens Vue Router instal·lat i configurat). Això ja hauria de ser part de la teva aplicació si estàs seguint un projecte amb Vue Router.</p>
-</li>
-<li>
-<p><strong>Configura el projecte per a producció</strong>:</p>
-</li>
+<li>Instal·lar i configurar <strong>JSON Server</strong>.</li>
+<li>Crear un arxiu <strong>JSON</strong> amb dades simulades.</li>
+<li>Implementar una API bàsica amb operacions CRUD (Crear, Llegir, Actualitzar, Esborrar).</li>
+<li>Realitzar peticions a l'API mitjançant <strong>Postman</strong> o el navegador.</li>
+<li>Utilitzar <strong>JSON Server</strong> com a backend per a una aplicació frontend.</li>
 </ol>
-<p>Si vols desplegar l'aplicació en una subcarpeta, per exemple, <code>https://example.com/my-app/</code>, has de configurar la ruta pública al fitxer <code>vue.config.js</code>. Si necessites configurar això, crea aquest fitxer a la <strong>arrel</strong> del teu projecte amb la següent configuració:</p>
-<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#__codelineno-0-2">2</a></span>
-<span class="normal"><a href="#__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="w">  </span><span class="nx">publicPath</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;/my-app/&#39;</span><span class="p">,</span><span class="w">  </span><span class="c1">// Canvia &#39;/my-app/&#39; pel nom de la teva subcarpeta</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="p">};</span>
-</span></code></pre></div></td></tr></table></div>
-<ol>
-<li><strong>Crear el build per a producció</strong>:</li>
-</ol>
-<p>Un cop el projecte està llest, utilitza la comanda de Vue CLI per crear el build de producció. Aquesta comanda compilarà el projecte, minificarà els arxius i generarà els fitxers per ser desplegats en producció.</p>
-<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a>npm<span class="w"> </span>run<span class="w"> </span>build
-</span></code></pre></div></td></tr></table></div>
-<p>Aquesta comanda generarà una carpeta <strong><code>dist/</code></strong> a la teva aplicació, on es trobaran tots els fitxers llestos per ser servits en un servidor web (HTML, CSS, JavaScript minificat, etc.).</p>
 <hr />
-<h3 id="pas-2-desplegar-laplicacio">Pas 2: Desplegar l'aplicació</h3>
-<p>Ara que tenim el build de producció generat, el següent pas és desplegar l'aplicació. Hi ha diverses opcions per fer-ho. A continuació, et mostraré tres de les opcions més comunes: <strong>GitHub Pages</strong>, <strong>Netlify</strong> i <strong>Vercel</strong>.</p>
+<h3 id="requisits-previs">Requisits previs:</h3>
+<ul>
+<li>Coneixements bàsics de <strong>JavaScript</strong> i <strong>JSON</strong>.</li>
+<li>Coneixements de <strong>APIs REST</strong>.</li>
+<li>Eines de desenvolupament: <strong>Node.js</strong>, <strong>npm</strong> (per instal·lar dependències).</li>
+<li><strong>Postman</strong> o qualsevol eina per fer peticions HTTP.</li>
+</ul>
 <hr />
-<h3 id="opcio-1-desplegar-en-github-pages">Opció 1: <strong>Desplegar en GitHub Pages</strong></h3>
-<p>Si vols desplegar la teva aplicació a <strong>GitHub Pages</strong>, segueix aquests passos:</p>
-<ol>
-<li><strong>Instal·la el paquet <code>gh-pages</code></strong>:</li>
-</ol>
-<p>Aquest paquet permet que el teu projecte es publiqui fàcilment a GitHub Pages.</p>
-<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a>npm<span class="w"> </span>install<span class="w"> </span>gh-pages<span class="w"> </span>--save-dev
-</span></code></pre></div></td></tr></table></div>
-<ol>
-<li><strong>Afegir configuració de <code>deploy</code> a <code>package.json</code></strong>:</li>
-</ol>
-<p>Al fitxer <code>package.json</code>, afegeix una nova entrada als scripts per desplegar l'aplicació.</p>
-<div class="language-json highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JSON</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
-<span class="normal"><a href="#__codelineno-3-2">2</a></span>
-<span class="normal"><a href="#__codelineno-3-3">3</a></span>
-<span class="normal"><a href="#__codelineno-3-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="nt">&quot;scripts&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="w">  </span><span class="nt">&quot;deploy&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;gh-pages -d dist&quot;</span><span class="p">,</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="w">  </span><span class="nt">&quot;build&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vue-cli-service build&quot;</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="p">}</span>
-</span></code></pre></div></td></tr></table></div>
-<p>El script <code>deploy</code> puja els fitxers de la carpeta <code>dist</code> a la branca <code>gh-pages</code> del teu repositori de GitHub.</p>
-<ol>
-<li><strong>Desplegar a GitHub Pages</strong>:</li>
-</ol>
-<p>Ara que tens configurat el script de desplegament, pots executar les següents ordres per crear el build i pujar-lo a GitHub Pages.</p>
-<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
-<span class="normal"><a href="#__codelineno-4-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a>npm<span class="w"> </span>run<span class="w"> </span>build
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2"></a>npm<span class="w"> </span>run<span class="w"> </span>deploy
-</span></code></pre></div></td></tr></table></div>
-<p>Aquesta comanda crearà el build i el pujaria a la branca <code>gh-pages</code> de GitHub. Un cop pujat, la teva aplicació estarà disponible a GitHub Pages.</p>
-<ol>
-<li><strong>Accedir a la teva aplicació</strong>:</li>
-</ol>
-<p>Ara pots accedir a l'aplicació desplegada a una URL similar a aquesta (si tens el repositori en GitHub):</p>
-<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1"></a>https://&lt;usuari&gt;.github.io/&lt;repositori&gt;/
+<h3 id="pas-1-installar-json-server"><strong>Pas 1: Instal·lar JSON Server</strong></h3>
+<p>Per començar, necessitaràs <strong>Node.js</strong> instal·lat al teu ordinador. Si no el tens, pots descarregar-lo des de <a href="https://nodejs.org/">nodejs.org</a>.</p>
+<p>Després, instal·la <strong>JSON Server</strong> globalment al teu sistema:</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a>npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>json-server
 </span></code></pre></div></td></tr></table></div>
 <hr />
-<h3 id="opcio-2-desplegar-en-netlify">Opció 2: <strong>Desplegar en Netlify</strong></h3>
-<p>Netlify és una plataforma senzilla per desplegar aplicacions web. A continuació t'explico com desplegar la teva aplicació en Netlify:</p>
-<ol>
-<li><strong>Crea un compte a Netlify</strong>:</li>
-</ol>
-<p>Si encara no tens un compte, visita <a href="https://www.netlify.com/">Netlify</a> i crea'n un.</p>
-<ol>
-<li><strong>Conectar el teu repositori</strong>:</li>
-</ol>
-<p>Un cop registrat, conecta el teu repositori de GitHub o GitLab amb Netlify. Això es fa des de l'interfície de Netlify. Un cop conectat, Netlify detectarà que és una aplicació Vue i et proposarà configurar la build automàticament.</p>
+<h3 id="pas-2-crear-el-fitxer-de-dades-json"><strong>Pas 2: Crear el fitxer de dades JSON</strong></h3>
+<p>Crea una carpeta per al teu projecte i afegeix un fitxer <code>db.json</code> que representarà la base de dades fake. Aquest fitxer pot contenir dades d'exemple com llibres.</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a>mkdir<span class="w"> </span>gns3-api
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="nb">cd</span><span class="w"> </span>gns3-api
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a>touch<span class="w"> </span>db.json
+</span></code></pre></div></td></tr></table></div>
+<p>A continuació, obre el fitxer <code>db.json</code> i afegeix dades de llibres:</p>
+<div class="language-json highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JSON</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-2-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-2-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-2-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-2-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-2-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-2-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-2-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-2-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-2-10">10</a></span>
+<span class="normal"><a href="#__codelineno-2-11">11</a></span>
+<span class="normal"><a href="#__codelineno-2-12">12</a></span>
+<span class="normal"><a href="#__codelineno-2-13">13</a></span>
+<span class="normal"><a href="#__codelineno-2-14">14</a></span>
+<span class="normal"><a href="#__codelineno-2-15">15</a></span>
+<span class="normal"><a href="#__codelineno-2-16">16</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="w">  </span><span class="nt">&quot;books&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="w">      </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Moby Dick&quot;</span><span class="p">,</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="w">      </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Herman Melville&quot;</span><span class="p">,</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="w">      </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1851</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="w">    </span><span class="p">},</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10"></a><span class="w">      </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11"></a><span class="w">      </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Pride and Prejudice&quot;</span><span class="p">,</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12"></a><span class="w">      </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Jane Austen&quot;</span><span class="p">,</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13"></a><span class="w">      </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1813</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15"></a><span class="w">  </span><span class="p">]</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<p>Aquest fitxer simula una base de dades de llibres amb els següents camps:</p>
+<ul>
+<li><code>id</code>: Identificador únic de cada llibre.</li>
+<li><code>title</code>: Títol del llibre.</li>
+<li><code>author</code>: Autor del llibre.</li>
+<li><code>year</code>: Any de publicació del llibre.</li>
+</ul>
+<hr />
+<h3 id="pas-3-iniciar-json-server"><strong>Pas 3: Iniciar JSON Server</strong></h3>
+<p>Ara que tens el fitxer de dades creat, pots iniciar el servidor. Obre el terminal i escriu:</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a>json-server<span class="w"> </span>--watch<span class="w"> </span>db.json<span class="w"> </span>--port<span class="w"> </span><span class="m">3000</span>
+</span></code></pre></div></td></tr></table></div>
+<p>Aquesta comanda farà que JSON Server generi automàticament una API RESTful basada en el fitxer <code>db.json</code>. El servidor estarà disponible a <a href="http://localhost:3000">http://localhost:3000</a>.</p>
+<hr />
+<h3 id="pas-4-fer-peticions-a-la-api"><strong>Pas 4: Fer peticions a la API</strong></h3>
+<p>Una vegada el servidor estigui en funcionament, podràs fer peticions HTTP per interactuar amb la teva base de dades simulada.</p>
+<h4 id="operacions-crud"><strong>Operacions CRUD</strong></h4>
 <ol>
 <li>
-<p><strong>Configurar el build</strong>:</p>
+<p><strong>GET</strong>: Obtenir la llista de llibres.</p>
 </li>
 <li>
-<p><strong>Build command</strong>: <code>npm run build</code></p>
+<p>URL: <code>http://localhost:3000/books</code></p>
 </li>
-<li><strong>Publish directory</strong>: <code>dist/</code></li>
+<li>Mètode: <strong>GET</strong></li>
 </ol>
-<p>Netlify es farà càrrec del build i del desplegament cada vegada que facis un commit al teu repositori.</p>
+<p><strong>Resposta esperada:</strong></p>
+<div class="language-json highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JSON</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-4-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-4-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-4-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-4-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-4-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-4-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-4-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-4-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-4-10">10</a></span>
+<span class="normal"><a href="#__codelineno-4-11">11</a></span>
+<span class="normal"><a href="#__codelineno-4-12">12</a></span>
+<span class="normal"><a href="#__codelineno-4-13">13</a></span>
+<span class="normal"><a href="#__codelineno-4-14">14</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="p">[</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="w">  </span><span class="p">{</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Moby Dick&quot;</span><span class="p">,</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5"></a><span class="w">    </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Herman Melville&quot;</span><span class="p">,</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6"></a><span class="w">    </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1851</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8"></a><span class="w">  </span><span class="p">{</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9"></a><span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10"></a><span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Pride and Prejudice&quot;</span><span class="p">,</span>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11"></a><span class="w">    </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Jane Austen&quot;</span><span class="p">,</span>
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12"></a><span class="w">    </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1813</span>
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14"></a><span class="p">]</span>
+</span></code></pre></div></td></tr></table></div>
 <ol>
-<li><strong>Desplegar</strong>:</li>
+<li>
+<p><strong>POST</strong>: Afegir un llibre nou.</p>
+</li>
+<li>
+<p>URL: <code>http://localhost:3000/books</code></p>
+</li>
+<li>Mètode: <strong>POST</strong></li>
+<li>Cos de la petició (JSON):</li>
 </ol>
-<p>Netlify farà la compilació de l'aplicació i la desplegarà automàticament. El teu projecte estarà disponible en una URL proporcionada per Netlify, com per exemple:</p>
-<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1"></a>https://&lt;nom-de-la-teva-app&gt;.netlify.app
+<div class="language-json highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JSON</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span>
+<span class="normal"><a href="#__codelineno-5-2">2</a></span>
+<span class="normal"><a href="#__codelineno-5-3">3</a></span>
+<span class="normal"><a href="#__codelineno-5-4">4</a></span>
+<span class="normal"><a href="#__codelineno-5-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="p">{</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1984&quot;</span><span class="p">,</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="w">  </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;George Orwell&quot;</span><span class="p">,</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="w">  </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1949</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<p><strong>Resposta esperada:</strong></p>
+<div class="language-json highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JSON</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span>
+<span class="normal"><a href="#__codelineno-6-2">2</a></span>
+<span class="normal"><a href="#__codelineno-6-3">3</a></span>
+<span class="normal"><a href="#__codelineno-6-4">4</a></span>
+<span class="normal"><a href="#__codelineno-6-5">5</a></span>
+<span class="normal"><a href="#__codelineno-6-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="p">{</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="w">  </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3"></a><span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1984&quot;</span><span class="p">,</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4"></a><span class="w">  </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;George Orwell&quot;</span><span class="p">,</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5"></a><span class="w">  </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1949</span>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<ol>
+<li>
+<p><strong>PUT</strong>: Actualitzar un llibre existent.</p>
+</li>
+<li>
+<p>URL: <code>http://localhost:3000/books/1</code></p>
+</li>
+<li>Mètode: <strong>PUT</strong></li>
+<li>Cos de la petició (JSON):</li>
+</ol>
+<div class="language-json highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JSON</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span>
+<span class="normal"><a href="#__codelineno-7-2">2</a></span>
+<span class="normal"><a href="#__codelineno-7-3">3</a></span>
+<span class="normal"><a href="#__codelineno-7-4">4</a></span>
+<span class="normal"><a href="#__codelineno-7-5">5</a></span>
+<span class="normal"><a href="#__codelineno-7-6">6</a></span>
+<span class="normal"><a href="#__codelineno-7-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="p">{</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="w">  </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Moby Dick&quot;</span><span class="p">,</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4"></a><span class="w">  </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Herman Melville&quot;</span><span class="p">,</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5"></a><span class="w">  </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1851</span><span class="p">,</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6"></a><span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Un clàssic de la literatura americana.&quot;</span>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<p><strong>Resposta esperada:</strong></p>
+<div class="language-json highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JSON</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1">1</a></span>
+<span class="normal"><a href="#__codelineno-8-2">2</a></span>
+<span class="normal"><a href="#__codelineno-8-3">3</a></span>
+<span class="normal"><a href="#__codelineno-8-4">4</a></span>
+<span class="normal"><a href="#__codelineno-8-5">5</a></span>
+<span class="normal"><a href="#__codelineno-8-6">6</a></span>
+<span class="normal"><a href="#__codelineno-8-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="p">{</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2"></a><span class="w">  </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3"></a><span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Moby Dick&quot;</span><span class="p">,</span>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4"></a><span class="w">  </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Herman Melville&quot;</span><span class="p">,</span>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5"></a><span class="w">  </span><span class="nt">&quot;year&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1851</span><span class="p">,</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6"></a><span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Un clàssic de la literatura americana.&quot;</span>
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<ol>
+<li>
+<p><strong>DELETE</strong>: Eliminar un llibre.</p>
+</li>
+<li>
+<p>URL: <code>http://localhost:3000/books/1</code></p>
+</li>
+<li>Mètode: <strong>DELETE</strong></li>
+</ol>
+<p><strong>Resposta esperada:</strong></p>
+<div class="language-json highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JSON</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-9-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1"></a><span class="p">{}</span>
 </span></code></pre></div></td></tr></table></div>
 <hr />
-<h3 id="opcio-3-desplegar-en-vercel">Opció 3: <strong>Desplegar en Vercel</strong></h3>
-<p>Vercel és una altra plataforma per desplegar aplicacions Vue de manera senzilla. Aquí tens com desplegar el teu projecte en Vercel:</p>
+<h3 id="pas-5-utilitzar-postman-per-fer-les-peticions"><strong>Pas 5: Utilitzar Postman per fer les peticions</strong></h3>
 <ol>
-<li><strong>Crea un compte a Vercel</strong>:</li>
+<li><strong>Obre Postman</strong> i configura les peticions amb els mètodes (GET, POST, PUT, DELETE) segons les operacions que vulguis provar.</li>
+<li><strong>Prova totes les operacions CRUD</strong> per veure com interactua el teu servidor amb les peticions.</li>
 </ol>
-<p>Visita <a href="https://vercel.com/">Vercel</a> i crea un compte. Si ja tens un compte, inicia sessió.</p>
-<ol>
-<li><strong>Conectar el teu repositori</strong>:</li>
-</ol>
-<p>Un cop iniciat sessió, pots connectar el teu repositori de GitHub o GitLab amb Vercel. Un cop connectat, Vercel detectarà automàticament que és una aplicació Vue.</p>
-<ol>
-<li>
-<p><strong>Configurar el build</strong>:</p>
-</li>
-<li>
-<p><strong>Framework preset</strong>: Vue.js</p>
-</li>
-<li><strong>Build command</strong>: <code>npm run build</code></li>
-<li><strong>Output directory</strong>: <code>dist</code></li>
-</ol>
-<p>Vercel es farà càrrec de la construcció i del desplegament automàtic del teu projecte.</p>
-<ol>
-<li><strong>Desplegar</strong>:</li>
-</ol>
-<p>Un cop configurat, Vercel farà el build i desplegarà l'aplicació. El teu projecte serà accessible a una URL com aquesta:</p>
-<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1"></a>https://&lt;nom-de-la-teva-app&gt;.vercel.app
+<hr />
+<h3 id="pas-6-crear-un-frontend-senzill-per-interactuar-amb-lapi"><strong>Pas 6: Crear un frontend senzill per interactuar amb l'API</strong></h3>
+<p>Una vegada tinguis la teva API en marxa, pots <strong>crear una interfície frontend</strong> (amb HTML, CSS i JavaScript) que faci peticions a l'API que has creat.</p>
+<p>Exemple bàsic en JavaScript per obtenir llibres:</p>
+<div class="language-html highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">HTML</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-10-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-10-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-10-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-10-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-10-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-10-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-10-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-10-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-10-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-10-10">10</a></span>
+<span class="normal"><a href="#__codelineno-10-11">11</a></span>
+<span class="normal"><a href="#__codelineno-10-12">12</a></span>
+<span class="normal"><a href="#__codelineno-10-13">13</a></span>
+<span class="normal"><a href="#__codelineno-10-14">14</a></span>
+<span class="normal"><a href="#__codelineno-10-15">15</a></span>
+<span class="normal"><a href="#__codelineno-10-16">16</a></span>
+<span class="normal"><a href="#__codelineno-10-17">17</a></span>
+<span class="normal"><a href="#__codelineno-10-18">18</a></span>
+<span class="normal"><a href="#__codelineno-10-19">19</a></span>
+<span class="normal"><a href="#__codelineno-10-20">20</a></span>
+<span class="normal"><a href="#__codelineno-10-21">21</a></span>
+<span class="normal"><a href="#__codelineno-10-22">22</a></span>
+<span class="normal"><a href="#__codelineno-10-23">23</a></span>
+<span class="normal"><a href="#__codelineno-10-24">24</a></span>
+<span class="normal"><a href="#__codelineno-10-25">25</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1"></a><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2"></a><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;ca&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4"></a>  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5"></a>  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width, initial-scale=1.0&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6"></a>  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Biblioteca<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-10-8"><a id="__codelineno-10-8" name="__codelineno-10-8"></a><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-10-9"><a id="__codelineno-10-9" name="__codelineno-10-9"></a>  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Llibres de la meva biblioteca<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span><span id="__span-10-10"><a id="__codelineno-10-10" name="__codelineno-10-10"></a>  <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;book-list&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span><span id="__span-10-11"><a id="__codelineno-10-11" name="__codelineno-10-11"></a>
+</span><span id="__span-10-12"><a id="__codelineno-10-12" name="__codelineno-10-12"></a>  <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-10-13"><a id="__codelineno-10-13" name="__codelineno-10-13"></a><span class="w">    </span><span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;http://localhost:3000/books&#39;</span><span class="p">)</span>
+</span><span id="__span-10-14"><a id="__codelineno-10-14" name="__codelineno-10-14"></a><span class="w">      </span><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+</span><span id="__span-10-15"><a id="__codelineno-10-15" name="__codelineno-10-15"></a><span class="w">      </span><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">books</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-10-16"><a id="__codelineno-10-16" name="__codelineno-10-16"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">bookList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;book-list&#39;</span><span class="p">);</span>
+</span><span id="__span-10-17"><a id="__codelineno-10-17" name="__codelineno-10-17"></a><span class="w">        </span><span class="nx">books</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">book</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-10-18"><a id="__codelineno-10-18" name="__codelineno-10-18"></a><span class="w">          </span><span class="kd">const</span><span class="w"> </span><span class="nx">li</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;li&#39;</span><span class="p">);</span>
+</span><span id="__span-10-19"><a id="__codelineno-10-19" name="__codelineno-10-19"></a><span class="w">          </span><span class="nx">li</span><span class="p">.</span><span class="nx">textContent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`</span><span class="si">${</span><span class="nx">book</span><span class="p">.</span><span class="nx">title</span><span class="si">}</span><span class="sb"> per </span><span class="si">${</span><span class="nx">book</span><span class="p">.</span><span class="nx">author</span><span class="si">}</span><span class="sb"> (</span><span class="si">${</span><span class="nx">book</span><span class="p">.</span><span class="nx">year</span><span class="si">}</span><span class="sb">)`</span><span class="p">;</span>
+</span><span id="__span-10-20"><a id="__codelineno-10-20" name="__codelineno-10-20"></a><span class="w">          </span><span class="nx">bookList</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">li</span><span class="p">);</span>
+</span><span id="__span-10-21"><a id="__codelineno-10-21" name="__codelineno-10-21"></a><span class="w">        </span><span class="p">});</span>
+</span><span id="__span-10-22"><a id="__codelineno-10-22" name="__codelineno-10-22"></a><span class="w">      </span><span class="p">});</span>
+</span><span id="__span-10-23"><a id="__codelineno-10-23" name="__codelineno-10-23"></a><span class="w">  </span><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-10-24"><a id="__codelineno-10-24" name="__codelineno-10-24"></a><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-10-25"><a id="__codelineno-10-25" name="__codelineno-10-25"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </span></code></pre></div></td></tr></table></div>
+<p>Això mostrarà la llista de llibres obtinguda des de l'API <strong>JSON Server</strong>.</p>
 <hr />
 
 
@@ -3681,7 +3931,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Peu de pàgina" >
         
           
-          <a href="../DWEC_BOM/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: BOM (opcional)">
+          <a href="../DWEC_json_serve/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Apunts del tema">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -3691,11 +3941,27 @@
                 Anterior
               </span>
               <div class="md-ellipsis">
-                BOM (opcional)
+                Apunts del tema
               </div>
             </div>
           </a>
         
+        
+          
+          <a href="../DWEC_UD8_api_rest_vue/" class="md-footer__link md-footer__link--next" aria-label="Següent: API RESTful">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Següent
+              </span>
+              <div class="md-ellipsis">
+                API RESTful
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
